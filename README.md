@@ -9,5 +9,6 @@ docker push <dockerhub ID/imagename:tag>
 Example : docker push mohammr1/javaapp:v1
 Pull the image to cloud console and run the container
 docker pull mohammr1/javaapp:v1
+docker run -p 8080:8080 mohammr1/javaapp:v1
 
 
